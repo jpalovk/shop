@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:controller="sample.Controller" prefHeight="383.0" prefWidth="564.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView fx:id="tableView" prefHeight="383.0" prefWidth="406.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="158.0" AnchorPane.topAnchor="0.0">
+         <columns>
+            <TableColumn fx:id="col_id" prefWidth="52.79998701810837" text="ID" />
+            <TableColumn fx:id="col_name" prefWidth="175.19995498657227" text="Názov produktu" />
+            <TableColumn fx:id="col_price" prefWidth="92.00004577636719" text="Cena produktu" />
+            <TableColumn fx:id="col_available" prefWidth="82.40008544921875" text="Dostupnosť" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>
